@@ -30,6 +30,8 @@ public class Quiz {
 
         // Закрываем сканер
         scanner.close();
+
+        System.out.println("Запушил изменения на GitHub");
     }
 
 
