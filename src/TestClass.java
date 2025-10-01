@@ -4,7 +4,7 @@ import java.util.List;
 public class TestClass {
     public static void main(String[] args) {
     System.out.println("Результат вычислений "+calc(5));
-
+    System.out.println("Результат вычислений "+calc(5));
     }
 
     public static int calc(int a) {
