@@ -1,3 +1,6 @@
+
+
+
 public class Delux {
     public static void main(String[] args) {
         System.out.println("Результат вычислений "+calc(5));
@@ -8,4 +11,12 @@ public class Delux {
         int result = 5+a;
         return result;
     }
+    public class Math {
+
+    }
+
 }
+
+
+
+
