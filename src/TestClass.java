@@ -1,16 +1,23 @@
 import java.util.ArrayList;
 import java.util.List;
+import src.puff;
 
 public class TestClass {
     public static void main(String[] args) {
-    System.out.println("Результат вычислений "+calc(5));
+
+        puff testobj = new puff();
+
+        System.out.println(testobj.pahh());
+
+    }
+    /*System.out.println("Результат вычислений "+calc(5));
     System.out.println("Результат вычислений "+calc(5));
     }
 
     public static int calc(int a) {
         int result = 5+a;
         return result;
-    }
+    }*/
     /*List<String> User = new ArrayList<>();
 
     public void processUsers(List<User> users) {
