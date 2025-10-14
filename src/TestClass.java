@@ -1,14 +1,21 @@
 import java.util.ArrayList;
 import java.util.List;
 import src.puff;
+import src.puff.zakritiy;
+
 
 public class TestClass {
     public static void main(String[] args) {
 
-        puff testobj = new puff();
+        Logitech log = new Logitech();
+        //log.add_book();
 
-        System.out.println(testobj.pahh());
+        //  puff testobj = new puff();
+        //System.out.println(testobj.pahh());
+        //System.out.println(testobj.error());
 
+        zakritiy tey = new zakritiy();
+        System.out.println(tey.metod());
     }
     /*System.out.println("Результат вычислений "+calc(5));
     System.out.println("Результат вычислений "+calc(5));
